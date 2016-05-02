@@ -1,0 +1,6 @@
+[
+  { "id":"HK", "name": "Hong Kong", "lng": 114.1747, "lat": 22.2783 },
+  { "id":"TH", "name": "Phi Phi", "lng": 98.7667, "lat": 7.7333 },
+  { "id":"JP", "name": "Japan", "lng":139.7667, "lat": 35.6833},
+  { "id":"SE", "name": "Sweden", "lng":59.3500, "lat": 18.0667}
+]

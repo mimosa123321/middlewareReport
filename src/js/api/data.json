@@ -1,0 +1,43 @@
+[{
+  "sys_name": "BEST",
+  "hardware_all": 10,
+  "os_all": 200,
+  "middleware_all": 160,
+  "hardware_os_all": 2,
+  "middlewares_all": 20,
+  "middlewares_os_all": 20
+  }, {
+  "sys_name": "X5 Cash",
+  "hardware_all": 2,
+  "os_all": 2,
+  "middleware_all": 2,
+  "hardware_os_all": 2,
+  "middlewares_all": 2,
+  "middlewares_os_all": 2
+  }, {
+  "sys_name": "Online Web",
+  "hardware_all": 2,
+  "os_all": 2,
+  "middleware_all": 3,
+  "hardware_os_all": 1,
+  "middlewares_all": 2,
+  "middlewares_os_all": 2
+  }, {
+  "sys_name": "CPCS",
+  "hardware_all": 1,
+  "os_all": 2,
+  "middleware_all": 2,
+  "hardware_os_all": 2,
+  "middlewares_all": 4,
+  "middlewares_os_all": 1
+},
+  {
+    "sys_name": "Summary",
+    "hardware_all": 100,
+    "os_all": 100,
+    "middleware_all": 100,
+    "hardware_os_all": 100,
+    "middlewares_all": 100,
+    "middlewares_os_all": 100
+  }
+]
