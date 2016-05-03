@@ -1,3 +1,5 @@
+require("./src/css/style.scss");
+
 import React from 'react';
 //import configureStore from './src/js/store/configureStore';
 import { createStore, applyMiddleware } from 'redux';
