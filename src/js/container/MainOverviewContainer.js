@@ -1,7 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
-
 import MainOverview from './../components/MainOverview';
+import { getAllData, openAdditionAnalytics } from './../actions';
 
 function mapStateToProps(state) {
     return {
@@ -14,14 +14,15 @@ class MainOverviewContainer extends Component {
         const { overviewLists} = this.props;
         return (
             <div className="mainOverviewContainer">
-            	<MainOverview overviewLists={overviewLists} />
+            	<MainOverview overviewLists={overviewLists} onAdditionLinkClick={this.props.getAllData} onOpenAdditionAnalytics={this.props.openAdditionAnalytics}/>
             </div>
         );
     }
 }
 
 export default connect(
-    mapStateToProps
+    mapStateToProps,
+    { getAllData, openAdditionAnalytics }
 )(MainOverviewContainer)
 
 

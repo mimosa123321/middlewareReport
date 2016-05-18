@@ -1,18 +1,7 @@
 import {Promise} from 'es6-promise-polyfill';
+import $ from 'jquery';
 
 export default {
-    getAirports(url, cb) {
-    	console.log("2="+url);
-        this.getData(url).then((response) => {
-        	console.log(response);
-            cb(JSON.parse(response));
-        });
-    },
-
-    getSystemAnalytics(url) {
-        return this.getData(url);
-    },
-
     getData(url) {
         return new Promise( (resolve, reject) => {
             var req = new XMLHttpRequest();
@@ -40,3 +29,4 @@ export default {
         })
     }
 }
+
